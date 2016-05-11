@@ -1,0 +1,109 @@
+
+/*
+body
+{
+	
+	background: linear-gradient(blue, black);
+}
+
+*/
+h1 
+{
+	font-family: Arial;
+	text-align: center;
+	color: white;
+	margin-top: auto;
+}
+
+body 
+{
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+#gradient
+{
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+}
+#calculator
+{
+	width: 250px;
+	height: 350px;
+	border: 5px solid yellow;
+	text-align: center;
+	background: #3389CA;
+	margin: 150px auto;
+	box-shadow: 0px 0px 50px yellow;
+}
+
+#display
+{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 220px;
+	height: 30px;
+	border: 1px solid yellow;
+	box-shadow: 0px 0px 30px blue;
+	text-align: right;
+	font: 20px bold;
+	color: yellow;
+	background-color: #1FCFE4;
+}
+
+#keys {
+	width: 41px;
+	height: 35px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 20px blue;
+	cursor: crosshair;
+	background-color: #1FCFE4;
+	border: 1px solid yellow;
+	font-weight: bold;
+}
+
+#keys:hover {
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+}
+
+#equal {
+	width: 90px;
+	height: 35px;
+	margin-left: 13px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 20px blue;
+	cursor: crosshair;
+	background-color: #1FCFE4;
+	font-weight: bold;
+}
+#equal:hover {
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+}
+/*
+#blue {
+	width: 180px;
+	height: 50px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	background-color: #1FCFE4;
+	color: blue;
+	font-size: 22px;
+	font-family: arial;
+
+}
+
+ background: -webkit-linear-gradient(red, orange, yellow, green, blue, indigo, violet); 
+    background: -o-linear-gradient(red, orange, yellow, green, blue, indigo, violet); 
+    background: -moz-linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+    background: linear-gradient(red, orange, yellow, green, blue, indigo, violet); 
+*/    
